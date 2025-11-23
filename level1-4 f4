@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int kvadrat(int a){
+return a*a;
+}
+int kub(int a){
+return a*a*a;
+}
+int main(){
+cout<<"eded daxil edin";
+cin>>a;
+cout<<"kvadrat"<<kvadrat(a)<<endl<<"kub"<<kub(a);
+return 0;
+}
