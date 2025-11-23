@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int uc ededin ortalamasi(int a,int b,int c){
+return (a+b+c)/3;
+}
+int main(){
+cout<<"birinci ededi daxil edin";
+cin>>a;
+cout<<"ikinci ededi daxil edin";
+cin>>b;
+cout<<"ucuncu ededi daxil edin";
+cin>>c;
+cout<<"uc ededin ortalamasi"<<uc ededin ortalamasi(a,b,c)<<endl;
+return 0;
+}
