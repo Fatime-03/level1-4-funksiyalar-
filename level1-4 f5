@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int boyuk(int a,int b){
+if(a>b)
+return a;
+else{
+return b;
+}
+int main(){
+cout<<"birinci ededi daxil edin";
+cin>>a;
+cout<<"ikinci ededi daxil edin";
+cin>>b;
+if(a==b){
+cout<<"ededler beraberdir";
+}
+else{
+cout<<"boyuk eded"<<boyuk(a,b);
+}return 0
+}
