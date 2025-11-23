@@ -1,0 +1,11 @@
+#include<iostram>
+using namespace std;
+int ededler(){
+for(int i=1; i<=10; i++){
+cout<<i<<"";
+}
+}
+int main(){
+ededler();
+return 0;
+}
