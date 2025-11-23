@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int cut(int a){
+if(a%2==0)
+cout<<a<<"cutdur";
+else
+cout<<a<<"tekdir";
+}
+int main(){
+cout<<"eded daxil edin";
+cin>>a;
+cut(a)
+return 0;
+}
