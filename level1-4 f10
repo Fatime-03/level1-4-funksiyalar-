@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int reqemlericemi(int a){
+int cem=0;
+while(n!=0){
+cem=cem+a%10;
+a=a/10;
+}
+return cem;
+}
+int main(){
+int a;
+cout<<"eded daxil edin";
+cin>>a;
+cout<<"reqemleri cemi"<<reqemlericemi(int a);
+return 0
+}
