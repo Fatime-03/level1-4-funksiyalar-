@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int musbet(int a){
+if(a>0)
+cout<<"musbet";
+else if(a<0)
+cout<<"menfi";
+else
+cout<<"sifir";
+}
+int main(){
+cout<<"eded daxil edin";
+cin>>a;
+musbet(a)
+return 0;
+}
