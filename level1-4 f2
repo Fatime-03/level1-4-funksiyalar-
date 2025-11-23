@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int sahe(int a,){
+return a*b;
+}
+int perimert(int a,){
+return 4a;
+}
+int main(){
+int a;
+cout<<"kvadratin terefini daxil edin";
+cin>>a;
+cout<<"sahe"<<sahe(a,b)<<endl;
+cout<<"perimetr"<<perimetr(a,b)<<endl;
+return 0;
+}
