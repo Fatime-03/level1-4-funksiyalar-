@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int umumicem(int N){
+int eded,cem=0
+for(int i=1;i<=N;i++){
+cout<<i<<"eded daxil edin";
+cin>>eded;
+cem=cem+eded;
+}
+return cem;
+}
+int main(){
+int N;
+cout<<"daxil etmek istediyiniz eded sayi";
+cin>>N;
+int k=umumicem(N);
+cout<<"daxil edilen ededlerin cemi"<<k<<endl;
+return 0;
+}
