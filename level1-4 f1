@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int cem(int a,int b){
+return a+b;
+}
+int ferq(int a,int b ){
+return a-b;
+}
+int hasil(int a,int b){
+return a*b;
+}
+int nisbet(int a,int b){
+if (b!=0)
+return a/b;
+else{
+cout<<"sifira bolmek olmaz"<<endl;
+return 0;
+}
+}
+int main(){
+int a,b;
+cout<<"birinci ededi daxil edin";
+cin>>a;
+cout<<"ikinci ededi daxil edin";
+cin>>b;
+cout<<"ededler"<<a<<"ve"<<b<<endl;
+cout<<"cem"<<cem(a,b)<<endl;
+cout<<"ferq"<<ferq(a,b)<<endl;
+cout<<"hasil"<<hasil(a,b)<<endl;
+cout<<"nisbet"<<nisbet(a,b)<<endl;
+return 0;
+}
